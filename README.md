@@ -16,15 +16,15 @@ These Procedures are helps me to clean the Dataset:
 13. Discounted amount column not in the dataset so,missing values of (Discount Applied column) is treated as a (FALSE) by default. Use Find & Replace option to replace the missing values into (FALSE) in the (Discount Applied) column.
 14. With the help of ChatGPT fill the missing values in (Item column) used this prompt (Fill the missing values from the CSV file and give me the completed clean file) to fill the (Item) column.
 15. Find the average of each catogery to fill the missing values of (Quantity) & (Total Spend) columns.
-16. Category                Average            Around
-17. Beverage                  5.58                6
-18. Butcher                   5.48                5
-19. Computer & Electric Ass   5.60                6
-20. Electric Household Ess    5.48                5
-21. Food                      5.56                6
-22. Furniture                 5.54                6
-23. Milk Products             5.51                6
-24. Passterie                 5.51                6
+16. Category           -     Average     -       Around
+17. Beverage           -      5.58       -         6
+18. Butcher            -      5.48       -         5
+19. Computer & Electric Ass - 5.60       -         6
+20. Electric Household Ess  - 5.48       -         5
+21. Food               -      5.56       -         6
+22. Furniture          -      5.54       -         6
+23. Milk Products      -      5.51       -         6
+24. Passterie          -      5.51       -         6
 25. Finally find out the averages for each category in (Quantity) column, use filter to categorize the table then Find & Replace option to replace the missing values into (Arounded Values) in the (Quantity) column.
 26. After filling the missing values of (Quantity) column.
 27. use this formula (=[@[Price Per Unit]]*[@Quantity]) to fill the (Total Spend) column.
